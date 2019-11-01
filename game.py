@@ -33,7 +33,7 @@ def winorlose(status):
 			exit()
 	else:
 			print("Make a valid choice. Yes or No.")
-
+			#choice = input("Y / N?")
 
 
 
