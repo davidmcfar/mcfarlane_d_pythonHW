@@ -13,7 +13,7 @@ computer=choices[randint(0,2)]
 player = False
 
 def winorlose(status):
-	print("called win or lose", status)
+	# print("called win or lose", status)
 	print("You", status)
 	choice = input("Y / N?")
 
@@ -35,7 +35,7 @@ def winorlose(status):
 			print("Make a valid choice. Yes or No.")
 
 
-			
+
 
 while player is False:
 	print("===========================================")
